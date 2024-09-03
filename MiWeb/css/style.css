@@ -1,0 +1,43 @@
+/* Todo el cv */
+.todoelcv{
+    height: auto;
+    position: relative;
+    border: 4px solid coral;
+    background-color: bisque;
+
+}
+/* Fotos */
+.MiFoto{
+    height: 260px;
+    margin: 0px 580px;
+}
+
+ 
+.Linea1{
+    height: 180px;
+    position: relative;
+    margin: 0px 830px;
+    top: -190px;
+}
+
+.Linea2{
+    height: 200px;
+    position: auto;
+
+}
+/* Info */
+.MiNombre{
+    position: relative;
+    margin: 20px 850px;
+    top: 180px;
+    color: green;
+    
+}
+
+.SobreMi{
+    color: red;
+}
+
+.textosobremi{
+    height: auto;
+}

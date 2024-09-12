@@ -23,8 +23,12 @@
 }
 
 .Linea2{
-    height: 200px;
-    position: auto;
+
+    height: 50px;
+    top: -39px;
+    width: 3000px;
+    margin: 0px -850px;
+    position: relative;
 
 }
 /* Info */
@@ -42,4 +46,16 @@
 
 .textosobremi{
     height: auto;
+}
+
+/* info2 */
+
+.Llamame{
+    top: 90px;
+    position: relative;
+}
+
+.LlamameLista{
+    top: 76px;
+    position: relative;
 }

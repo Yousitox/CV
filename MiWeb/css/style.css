@@ -2,6 +2,8 @@
 .todoelcv{
     position: relative;
     background-color: silver;
+    margin: 20px auto;
+    border: 1px solid black;
 
 }
 

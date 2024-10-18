@@ -1,14 +1,31 @@
+/* Cuerpo */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* CSS DEL INDEX.HTML */
+/* Principal */
 .todo {
     margin: 0px auto;
     width: 1100px;
     border: 2px solid red;
 }
 
+/* Fotos */
 .MiFoto {
     height: 230px;
     border: 2px solid blue;
 }
+
+/* SECCION 1 */
+
+
+
+/* CSS BARRA LATERAL */
+.boton{
+    color: blue;
+    height: 300px;
+    width: 300px;
+}
+
+/* CSS DEL CONTACTO */

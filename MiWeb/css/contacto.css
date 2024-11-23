@@ -1,0 +1,9 @@
+/* CSS para el html de contacto */
+
+
+/* Boton para enviar informacion */
+.boton {
+    color: blue;
+    height: 300px;
+    width: 300px;
+  }

@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MI CV</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <script src="../js/index.js"></script>
   </head>
   <body>
     <!--HACER COMO UNA ENCUESTA DONDE RELLENAS ASI PARA NO DAR DATOS Y QUE ME LLEGE A MI CORREO Y ASI PODER CONTACTAR-->
     <main class="todo">
-      <!-- LA BARRA LATERAL -->
-      <aside class="barralateral">
-        <a class="principalbara" href="index.html">Principal</a> <br />
-        <a class="contactamex" href="contacto.html">Contactame</a>
-      </aside>
+      <!-- BARRA LATERAL -->
+      <div id="sidebar" class="sidebar">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <button id="toggleButton" class="toggle-button">☰</button>
 
       <!-- PARA EL CONTACTO -->
       <header class="principal1conta">
@@ -25,5 +27,6 @@
         <button onclick="botonalerta()" class="boton">Enviar</button>
       </header>
     </main>
+    <script src="../js/index.js"></script>
   </body>
 </html>

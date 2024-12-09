@@ -7,15 +7,11 @@ function botonalerta() {
 }
 
 
-function apertura() {
-  document.getElementById("todo").style.marginLeft = "25%";
-  document.getElementById("barralateral").style.width = "25%";
-  document.getElementById("barralateral").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
-}
-
-function cierre() {
-  document.getElementById("todo").style.marginLeft = "0%";
-  document.getElementById("barralateral").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-}
+document.getElementById("toggleButton").addEventListener("click", function () {
+  const sidebar = document.getElementById("sidebar");
+  if (sidebar.style.width === "250px") {
+    sidebar.style.width = "0";
+  } else {
+    sidebar.style.width = "250px";
+  }
+});

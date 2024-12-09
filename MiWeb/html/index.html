@@ -6,16 +6,18 @@
     <title>MI CV</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/pagprincipal.css" />
-    <script src="../js/index.js"></script>
   </head>
   <body>
     <!--  -->
     <main class="todo">
       <!-- BARRA LATERAL -->
-      <aside class="barralateral">
-        <a class="principalbara" href="index.html">Principal</a> <br />
-        <a class="contactamex" href="contacto.html">Contactame</a>
-      </aside>
+      <div id="sidebar" class="sidebar">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <button id="toggleButton" class="toggle-button">☰</button>
 
       <!-- CABEZA PRINCIPAL -->
       <header class="principal1">
@@ -62,5 +64,6 @@
         </ul>
       </section>
     </main>
+    <script src="../js/index.js"></script>
   </body>
 </html>
